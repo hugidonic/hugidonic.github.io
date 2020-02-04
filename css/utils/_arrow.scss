@@ -1,0 +1,51 @@
+.arrows{
+  position: fixed;
+  bottom: 5%;
+  z-index: 991;
+  
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  
+  #prev{
+    margin-left: 5%;
+  }
+  #next{
+    margin-right: 5%;
+  }
+  
+  .ar{
+    width: 60px;
+    height: 60px;
+    
+    cursor: pointer;
+    border: 2px solid #fff;
+
+    border-radius: 50%;
+
+    margin-right: 10px;
+    position: relative;
+    z-index: 5999;
+
+    transition: .2s;
+    color: #ffffff;
+
+    &:hover{
+      border-color: #E84545;
+      color: #E84545;
+    }
+    
+    i{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
+

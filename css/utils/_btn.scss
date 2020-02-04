@@ -1,0 +1,65 @@
+
+.btn-box{
+  display: flex;
+  width: 350px;
+  cursor: pointer;
+  
+  &:hover{
+    .btn-more{
+      background-color: rgba(232, 69, 69, 0.2);
+    }
+    .btn-play{
+      background-color: rgba(232, 69, 69, 0.5);
+    }
+  }
+}
+.btn{
+  font-family: 'PT Mono';
+  font-weight: 400;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: 77;
+
+  height: 80px;
+  width: 250px;
+
+  transition: .2s;
+
+
+  @media screen and (max-width: 500px){
+    width: 200px;
+    height: 60px;
+  }
+
+}
+
+.btn-more{
+  border: 2px solid #E84545;
+  border-right-width: 0;
+  font-size: 35px;
+
+  @media screen and (max-width: 500px){
+    font-size: 25px;
+  }
+}
+
+.btn-play{
+  cursor: pointer;
+  border: 2px solid #E84545;
+  border-left-width: 0;
+  
+  background-color: rgba(232, 69, 69, 0.2);
+  
+  font-size: 20px;
+  width: 100px;
+  @media screen and (max-width: 500px){
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+  }
+}

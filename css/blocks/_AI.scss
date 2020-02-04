@@ -1,0 +1,23 @@
+
+.ai{
+  .image{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: 400;
+    
+    img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      width: 70vh;
+      transform: rotateY(180deg);
+
+
+      @media screen and (max-width: 800px) {
+        // width: 500px;
+      }
+    }
+
+  }
+}

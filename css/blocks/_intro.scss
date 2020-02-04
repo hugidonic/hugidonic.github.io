@@ -1,0 +1,73 @@
+
+#intro{
+  background: url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center / cover;
+  z-index: 555;
+}     
+
+.section{
+
+  .intro__titles{
+    height: 100%;
+    width: 100%;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    font-weight: 400;
+
+    h2{
+      font-weight: 400;
+      font-size: 85px;
+    }
+  }
+
+  .text{
+    font-weight: 400;
+    font-size: 90px;
+    color: #FAFAFA;
+    font-family: 'PT Mono', monospace;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .intro__titles{
+      h2{
+        font-size: 60px;
+      }
+    }
+    .text{
+      font-size: 50px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .intro__titles{
+      font-size: 50px;
+      h2{
+        font-size: 50px;
+      }
+    }
+    .text{
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .intro__titles{
+      font-size: 25px;
+      h2{
+        font-size: 35px;
+      }
+    }
+    .text{
+      font-size: 30px;
+    }
+  }
+}
+
+
+
+
+
+.dud{
+  color: #757575;
+}

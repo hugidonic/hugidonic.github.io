@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+html,
+body{
+  font-family: 'Montserrat';
+  overflow-y: hidden;
+}
+
+html{
+  background-color: #301C3F;
+}
+
+body{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+section {
+	float: left;
+  display: block;
+  width: 100vw;
+	height: 100vh;
+
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+
+  background: url(../../img/Bg.jpg) no-repeat center center / cover;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+  html,
+  body{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section {
+    float: none;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    .section__titles{
+      opacity: 1;
+    }
+
+    .image{
+      display: none;
+    }
+  }
+  
+
+}
+
+.section{
+  position: relative;
+  top: 0;
+  left: 0;
+
+  .image{
+    opacity: 0;
+    animation-delay: .4s !important;
+  }
+}
+
+.switcher:checked ~ main{
+  pointer-events: none;
+}
+
+
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9997;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(87, 44, 85);
+
+  transform-origin: bottom;
+  // transform: scale(0);
+}
+
+.sec{
+  background-color: #4b1d52 !important;
+  z-index: 9999;
+}
+
+.transition-swipe{
+  transition: .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transform: scaleY(0);
+}
+.transition-swipe2{
+  transition: 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transform: scaleY(0);
+}
+
+html.is-animating .transition-swipe{
+  transform: scaleY(1);
+}
+html.is-animating .transition-swipe2{
+  transform: scaleY(1);
+}
+
+
+
+
+// Text
+@import '../text/titles';
+
+// Utils
+@import '../utils/btn';         // Buttons
+// @import '../utils/vars';        // Global vars
+@import '../utils/preloader';   // Preloader
+@import '../utils/particles';   // Particles.js
+@import '../utils/arrow';      // Arrow
+
+
+//              Blocks
+//Navbar
+@import '../blocks/header';
+//Info
+@import '../blocks/info';
+
+// Sections
+@import '../blocks/intro';      //Into
+@import '../blocks/AI';         //AI
+@import '../blocks/robotics';   //Robotics
+@import '../blocks/bionics';    //Bionics
+@import '../blocks/AR';         //AR
+@import '../blocks/crypto';     //Crypto
+
