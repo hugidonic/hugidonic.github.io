@@ -9,9 +9,11 @@ body{
   font-family: 'PT Mono';
   overflow-x: hidden;
 }
-a{
-  text-decoration: none
+
+::-webkit-scrollbar{
+  display: none;
 }
+
 .overlay{
   position: fixed;
   top: 0;
@@ -45,3 +47,24 @@ html.AI-animating .transition-swipe{
 html.AI-animating .transition-swipe2{
   transform: scaleY(0);
 }
+
+section.white{
+  background: url(../../img/white.jpg) no-repeat center center / cover;
+
+  .section__titles,
+  .titles--types,
+  .section__heading{
+    color: #333333;
+  }
+} 
+section.black{
+  background: url(../../img/black.jpg) no-repeat center center / cover;
+  .section__titles,
+  .titles--types,
+  .section__heading{
+    color: #ffffff !important;
+  }
+} 
+
+@import '../blocks/intro';
+@import '../utils/titles';
