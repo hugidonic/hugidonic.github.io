@@ -99,7 +99,7 @@ section.black .section__heading {
 .intro {
   width: 100vw;
   height: 100vh;
-  background: url(../../img/bgIntro.jpg) no-repeat center center/cover;
+  background: url(../../img/introbg.jpg) no-repeat center center/cover;
 }
 
 .intro__titles {
@@ -109,7 +109,7 @@ section.black .section__heading {
           transform: translateY(-60%);
   left: 5%;
   z-index: 4;
-  width: 45vw;
+  width: 40vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,8 +203,9 @@ section.black .section__heading {
 }
 
 .section {
-  padding: 200px 120px 140px;
+  padding: 100px 120px 140px;
   position: relative;
+  overflow: hidden;
 }
 
 .section__titles {
@@ -229,6 +230,15 @@ section.black .section__heading {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: -20px;
+}
+
+.section__titles ul {
+  line-height: 2;
+  margin-left: 2rem;
+}
+
+.section__titles ul li {
+  font-size: 18px;
 }
 
 .section__titles .sophia {
@@ -284,10 +294,10 @@ section.black .section__heading {
 }
 
 .section__heading {
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 400;
   max-width: 90%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-left: -5px;
 }
 
@@ -339,7 +349,7 @@ section.black .section__heading {
   }
   .section__titles p {
     margin-bottom: 60px;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.2;
     text-align: center;
   }

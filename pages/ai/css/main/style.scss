@@ -72,13 +72,13 @@ section{
   z-index: 3;
 
   &.white{
-    background: url(../../img/Bg.jpg) no-repeat center center / cover;
+    background: url(../../img/white.jpg) no-repeat center center / cover;
     .section__titles{
       color: #333333;
     }
   }
   &.dark{
-    background: url(../../img/1.jpg) no-repeat center center / cover;
+    background: url(../../img/black.jpg) no-repeat center center / cover;
     .section__titles{
       color: #ffffff;
     }

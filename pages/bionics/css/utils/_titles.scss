@@ -1,6 +1,7 @@
 .section{
-  padding: 200px 120px 140px;
+  padding: 100px 120px 140px;
   position: relative;
+  overflow: hidden;
 
   &__titles{
     width: 1000px;
@@ -22,6 +23,14 @@
         top: 50%;
         transform: translateY(-50%);
         left: -20px;
+      }
+    }
+
+    ul{
+      line-height: 2;
+      margin-left: 2rem;
+      li{
+        font-size: 18px;
       }
     }
 
@@ -58,6 +67,8 @@
       }
     }
 
+
+
     .image{
       position: absolute;
       top: 30%;
@@ -81,10 +92,10 @@
   }
 
   &__heading{
-    font-size: 54px;
+    font-size: 50px;
     font-weight: 400;
     max-width: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     margin-left: -5px;
   }
 
@@ -130,7 +141,7 @@
       max-width: 100vw;
       p{
         margin-bottom: 60px;
-        font-size: 24px;  
+        font-size: 18px;  
         line-height: 1.2;
         text-align: center;
   

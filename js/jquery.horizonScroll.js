@@ -111,18 +111,25 @@
         }
     };
 
-    // $('#btnAi').on('click', ()=>{
-    //     scrollTo(0, $.fn.horizon.defaults.scrollDuration)
-    // });
-
     function isNumeric(num) {
         return !isNaN(num)
     }
 
-    function dot(section) {
-        let dots = $('.dot')
-        let menu = $('.nav__menu a')
+    
+    let dots = $('.dot')
+    let menu = $('.nav__menu a')
+    let titleClass = 'fadeInDown'
+    let imgClass = 'fadeIn'
+    let titles = document.querySelectorAll('.section__titles')
+    let images = document.querySelectorAll('.image')
 
+    function delay(ms) {
+        return new Promise(r => {
+          setTimeout(r, ms)
+        })
+    }
+
+    function dot(section) {
         
         $.each(dots, (index, dot) => {
             dot.classList.remove('active')
@@ -133,6 +140,15 @@
 
         dots[section].classList.add('active')
         menu[section].classList.add('active')
+        if(section === 0){
+            return
+        }else{
+            delay(700).then(()=>{
+                titles[section-1].classList.add(titleClass)
+                images[section-1].classList.add(imgClass)
+            })
+      
+        }
     }
 
     function scrollToId(id, speed) {

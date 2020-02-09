@@ -9,9 +9,6 @@ const toggle = document.getElementById('toggle')
 const dotsMenu = document.getElementById('dots')
 const dots = dotsMenu.querySelectorAll('.dot')
 
-// Wrapper
-const wrapper = document.querySelector('.outer-wrapper');
-
 // Active Link
 menu.addEventListener('click', (e) => {
   // e.preventDefault()
@@ -47,52 +44,6 @@ dotsMenu.addEventListener('click', (e) => {
     toggle.checked = false
   }
 })
-
-
-
-let titleClass = 'fadeInDown'
-let imgClass = 'fadeIn'
-let titles = document.querySelectorAll('.section__titles')
-let images = document.querySelectorAll('.image')
-let width = window.innerWidth;
-let i;
-
-window.onscroll = function() {
-  let scrollLeft = window.pageXOffset;
-	switch (scrollLeft) {
-		case width:
-			i = 0;
-      
-      titles[i].classList.add(titleClass)
-      images[i].classList.add(imgClass)
-
-			break;
-		case 2*width:
-			i = 1;
-			titles[i].classList.add(titleClass)
-      images[i].classList.add(imgClass)
-
-			break;
-		case 3*width:
-			i = 2;
-			titles[i].classList.add(titleClass)
-      images[i].classList.add(imgClass)
-
-			break;
-		case 4*width:
-			i = 3;
-			titles[i].classList.add(titleClass)
-      images[i].classList.add(imgClass)
-
-			break;
-		case 5*width:
-			i = 4;
-			titles[i].classList.add(titleClass)
-      images[i].classList.add(imgClass)
-
-			break;		
-  }
-}
 
 
 class TextScramble {

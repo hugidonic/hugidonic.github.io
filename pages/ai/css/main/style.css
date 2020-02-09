@@ -83,7 +83,7 @@ section {
 }
 
 section.white {
-  background: url(../../img/Bg.jpg) no-repeat center center/cover;
+  background: url(../../img/white.jpg) no-repeat center center/cover;
 }
 
 section.white .section__titles {
@@ -91,7 +91,7 @@ section.white .section__titles {
 }
 
 section.dark {
-  background: url(../../img/1.jpg) no-repeat center center/cover;
+  background: url(../../img/black.jpg) no-repeat center center/cover;
 }
 
 section.dark .section__titles {
@@ -111,7 +111,7 @@ section.dark .section__titles {
 .intro {
   width: 100vw;
   height: 100vh;
-  background: url(../../img/1.jpg) no-repeat center center/cover;
+  background: url(../../img/black.jpg) no-repeat center center/cover;
 }
 
 .intro__titles {
