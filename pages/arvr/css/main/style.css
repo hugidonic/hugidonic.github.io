@@ -361,12 +361,107 @@ section.black .section__heading {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .section__titles .microsoft iframe {
+    width: 450px;
+    height: 260px;
+  }
+  .section__titles .slam iframe {
+    width: 450px;
+    height: 260px;
+  }
+  .section__titles .google img {
+    width: 400px;
+  }
+  .section__titles .phone img {
+    width: 400px;
+  }
+  .section__titles .man img {
+    width: 400px;
+  }
+  .section__titles .vr {
+    top: 15%;
+    right: 5%;
+  }
+  .section__titles .vr img {
+    display: block;
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+  }
+  .section__titles .motion {
+    top: 55%;
+    right: 10%;
+  }
+  .section__titles .motion img {
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+  }
+  .section__titles .leap {
+    top: 20%;
+    right: 5%;
+  }
+  .section__titles .leap img {
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+  }
+  .section__titles .touch {
+    top: 60%;
+    right: 5%;
+  }
+  .section__titles .touch img {
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+  }
+  .section__titles .vrman {
+    bottom: 0;
+    right: 1%;
+  }
+  .section__titles .vrman img {
+    display: block;
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 1500px) {
   .section__titles {
-    width: 90%;
+    width: 800px;
   }
-  .section .image {
+  .section__titles .man {
+    right: 3%;
+  }
+  .section__titles .man img {
+    width: 380px;
+  }
+  .section__titles .phone {
+    right: 3%;
+  }
+  .section__titles .phone img {
+    width: 400px;
+  }
+  .section__titles .slam {
     display: none;
+  }
+  .section__titles .google {
+    right: 3%;
+  }
+  .section__titles .google img {
+    width: 400px;
+  }
+  .section__titles .microsoft {
+    right: 3%;
+  }
+  .section__titles .microsoft iframe {
+    width: 400px;
+    height: 220px;
   }
 }
 
@@ -374,6 +469,9 @@ section.black .section__heading {
   .section__titles {
     width: 80vw;
     line-height: 1.3;
+  }
+  .section__titles .image {
+    display: none;
   }
 }
 
