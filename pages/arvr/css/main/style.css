@@ -271,9 +271,47 @@ section.black .section__heading {
   height: auto;
 }
 
+.section__titles .vrman {
+  bottom: 0;
+  right: 1%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.section__titles .vrman img {
+  display: block;
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+}
+
+.section__titles .leap {
+  top: 20%;
+  right: 4%;
+}
+
+.section__titles .leap img {
+  display: block;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+.section__titles .touch {
+  top: 60%;
+  right: 4%;
+}
+
+.section__titles .touch img {
+  display: block;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
 .section__titles .vr {
   top: 15%;
-  right: 5%;
+  right: 4%;
 }
 
 .section__titles .vr img {
@@ -285,49 +323,13 @@ section.black .section__heading {
 
 .section__titles .motion {
   top: 55%;
-  right: 10%;
+  right: 6%;
 }
 
 .section__titles .motion img {
   display: block;
   max-width: 100%;
   width: 600px;
-  height: auto;
-}
-
-.section__titles .leap {
-  top: 20%;
-  right: 5%;
-}
-
-.section__titles .leap img {
-  display: block;
-  max-width: 100%;
-  width: 600px;
-  height: auto;
-}
-
-.section__titles .touch {
-  top: 60%;
-  right: 5%;
-}
-
-.section__titles .touch img {
-  display: block;
-  max-width: 100%;
-  width: 600px;
-  height: auto;
-}
-
-.section__titles .vrman {
-  bottom: 0;
-  right: 1%;
-}
-
-.section__titles .vrman img {
-  display: block;
-  max-width: 100%;
-  width: 800px;
   height: auto;
 }
 
@@ -379,55 +381,20 @@ section.black .section__heading {
   .section__titles .man img {
     width: 400px;
   }
-  .section__titles .vr {
-    top: 15%;
-    right: 5%;
-  }
-  .section__titles .vr img {
-    display: block;
-    max-width: 100%;
-    width: 450px;
-    height: auto;
-  }
-  .section__titles .motion {
-    top: 55%;
-    right: 10%;
-  }
-  .section__titles .motion img {
-    display: block;
-    max-width: 100%;
-    width: 600px;
-    height: auto;
-  }
-  .section__titles .leap {
-    top: 20%;
-    right: 5%;
+  .section__titles .vrman img {
+    width: 700px;
   }
   .section__titles .leap img {
-    display: block;
-    max-width: 100%;
-    width: 600px;
-    height: auto;
-  }
-  .section__titles .touch {
-    top: 60%;
-    right: 5%;
+    width: 400px;
   }
   .section__titles .touch img {
-    display: block;
-    max-width: 100%;
-    width: 600px;
-    height: auto;
+    width: 400px;
   }
-  .section__titles .vrman {
-    bottom: 0;
-    right: 1%;
+  .section__titles .motion {
+    right: 2%;
   }
-  .section__titles .vrman img {
-    display: block;
-    max-width: 100%;
-    width: 800px;
-    height: auto;
+  .section__titles .motion img {
+    width: 500px;
   }
 }
 
