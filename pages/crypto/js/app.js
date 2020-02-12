@@ -4,10 +4,9 @@ function delay(ms) {
   })
 }
 
-
 $(document).ready(function() {
   
-  delay(2000).then(()=>{    
+  delay(2000).then(()=>{
     $('html').addClass('AI-animating')
   })
 
@@ -22,4 +21,5 @@ $(document).ready(function() {
     })
   })
 })
+
 
