@@ -47,9 +47,9 @@
       right: 2%;
       
       iframe{
-        width: 35vw;
+        width: 500px;
         border-radius: 5px;
-        height: 420px;
+        height: 280px;
       }
     }
     .image{
@@ -89,6 +89,15 @@
       width: 900px;
     }
   }
+  @media screen and (max-width: 1600px) {
+
+    .aiko{
+      iframe{
+        width: 450px;
+        height: 240px;
+      }
+    }
+  }
   @media screen and (max-width: 1500px) {
     &__titles{
       width: 900px;
@@ -97,6 +106,12 @@
       right: -3%;
       img{
         width: 450px;
+      }
+    }
+    .aiko{
+      iframe{
+        width: 400px;
+        height: 200px;
       }
     }
   }

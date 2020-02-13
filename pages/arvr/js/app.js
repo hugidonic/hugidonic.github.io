@@ -8,6 +8,7 @@ $(document).ready(function () {
     $('.intro__vr').toggleClass('disactive')
     $('#arRoot').toggle()
   })
+
   $('.intro__vr').on('click', function() {
     $(this).toggleClass('active')
     $('.intro__ar').toggleClass('disactive')
@@ -20,7 +21,6 @@ $(document).ready(function () {
     })
   }
   
-    
   delay(2000).then(()=>{    
     $('html').addClass('AI-animating')
   })

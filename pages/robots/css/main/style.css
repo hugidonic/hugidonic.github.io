@@ -254,9 +254,9 @@ section.black .section__heading {
 }
 
 .section__titles .aiko iframe {
-  width: 35vw;
+  width: 500px;
   border-radius: 5px;
-  height: 420px;
+  height: 280px;
 }
 
 .section__titles .image {
@@ -298,6 +298,13 @@ section.black .section__heading {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .section .aiko iframe {
+    width: 450px;
+    height: 240px;
+  }
+}
+
 @media screen and (max-width: 1500px) {
   .section__titles {
     width: 900px;
@@ -307,6 +314,10 @@ section.black .section__heading {
   }
   .section .robots img {
     width: 450px;
+  }
+  .section .aiko iframe {
+    width: 400px;
+    height: 200px;
   }
 }
 
