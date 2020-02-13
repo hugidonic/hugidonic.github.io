@@ -6,8 +6,7 @@
 
 html,
 body{
-  font-family: 'PT Mono';
-  overflow-x: hidden;
+  font-family: 'PT Mono',sans-serif;
 }
 
 .overlay{
@@ -18,9 +17,7 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: rgb(87, 44, 85);
-
   transform-origin: bottom;
-  // transform: scale(0);
 }
 
 .sec{
@@ -66,19 +63,20 @@ a{
 section{
   width: 100vw;
   height: auto;
-  // height: 100vh;
   display: block;
   position: relative;
   z-index: 3;
 
   &.white{
     background: url(../../img/white.jpg) no-repeat center center / cover;
+    .section__heading,
     .section__titles{
       color: #333333;
     }
   }
   &.dark{
     background: url(../../img/black.jpg) no-repeat center center / cover;
+    .section__heading,
     .section__titles{
       color: #ffffff;
     }
@@ -97,7 +95,6 @@ section{
 }
 
 @import '../blocks/intro';
-@import '../blocks/sections';
 @import '../utils/mouse';
 @import '../utils/titles';
 

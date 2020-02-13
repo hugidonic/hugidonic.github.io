@@ -5,10 +5,13 @@
           box-sizing: border-box;
 }
 
+.wow {
+  visibility: hidden;
+}
+
 html,
 body {
   font-family: 'Montserrat';
-  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

@@ -7,7 +7,6 @@
 html,
 body{
   font-family: 'PT Mono';
-  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -22,9 +21,7 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: rgb(87, 44, 85);
-
   transform-origin: bottom;
-  // transform: scale(0);
 }
 
 .sec{
