@@ -11,7 +11,7 @@
 
 html,
 body {
-  font-family: 'Montserrat';
+  font-family: 'PT Mono', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -125,6 +125,7 @@ section.black .section__heading {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  font-family: 'Montserrat';
 }
 
 .intro__item {
@@ -150,7 +151,7 @@ section.black .section__heading {
 }
 
 .intro__ar {
-  background: url(../../img/arBg.jpg) no-repeat left 20% center/cover;
+  background: url(../../img/arBg.jpg) no-repeat left center/cover;
   border-right: 1px solid #000000;
 }
 
@@ -187,7 +188,6 @@ section.black .section__heading {
   padding: 100px 120px 100px;
   position: relative;
   overflow: hidden;
-  font-family: 'PT Mono', sans-serif;
 }
 
 .section__titles {
@@ -245,9 +245,7 @@ section.black .section__heading {
 
 .section__titles .google img {
   display: block;
-  max-width: 100%;
   width: 700px;
-  height: auto;
 }
 
 .section__titles .phone {
@@ -257,9 +255,7 @@ section.black .section__heading {
 
 .section__titles .phone img {
   display: block;
-  max-width: 100%;
   width: 600px;
-  height: auto;
 }
 
 .section__titles .man {
@@ -269,23 +265,19 @@ section.black .section__heading {
 
 .section__titles .man img {
   display: block;
-  max-width: 100%;
   width: 500px;
-  height: auto;
 }
 
 .section__titles .vrman {
   bottom: 0;
   right: 1%;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
 }
 
 .section__titles .vrman img {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
   display: block;
-  max-width: 100%;
   width: 800px;
-  height: auto;
 }
 
 .section__titles .leap {
@@ -295,9 +287,7 @@ section.black .section__heading {
 
 .section__titles .leap img {
   display: block;
-  max-width: 100%;
   width: 500px;
-  height: auto;
 }
 
 .section__titles .touch {
@@ -307,9 +297,7 @@ section.black .section__heading {
 
 .section__titles .touch img {
   display: block;
-  max-width: 100%;
   width: 500px;
-  height: auto;
 }
 
 .section__titles .vr {
@@ -319,9 +307,7 @@ section.black .section__heading {
 
 .section__titles .vr img {
   display: block;
-  max-width: 100%;
   width: 450px;
-  height: auto;
 }
 
 .section__titles .motion {
@@ -331,9 +317,7 @@ section.black .section__heading {
 
 .section__titles .motion img {
   display: block;
-  max-width: 100%;
   width: 600px;
-  height: auto;
 }
 
 .section__heading {

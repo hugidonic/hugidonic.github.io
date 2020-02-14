@@ -2,7 +2,6 @@
   padding: 100px 120px 100px;
   position: relative;
   overflow: hidden;
-  font-family: 'PT Mono', sans-serif;
   &__titles{
     width: 1000px;
     p{
@@ -50,23 +49,17 @@
     .google{
       top: 30%;
       right: 5%;
-
       img{
         display: block;
-        max-width: 100%;
         width: 700px;
-        height: auto;
       }
     }
     .phone{
       top: 15%;
       right: 5%;
-
       img{
         display: block;
-        max-width: 100%;
         width: 600px;
-        height: auto;
       }
     }
     .man{
@@ -75,21 +68,17 @@
 
       img{
         display: block;
-        max-width: 100%;
         width: 500px;
-        height: auto;
       }
     }
 
     .vrman{
       bottom: 0;
       right: 1%;
-      transform: rotateY(180deg);
       img{
+        transform: rotateY(180deg);
         display: block;
-        max-width: 100%;
         width: 800px;
-        height: auto;
       }
     }
 
@@ -98,9 +87,7 @@
       right: 4%;
       img{
         display: block;
-        max-width: 100%;
         width: 500px;
-        height: auto;
       }
     }
     .touch{
@@ -108,9 +95,7 @@
       right: 4%;
       img{
         display: block;
-        max-width: 100%;
         width: 500px;
-        height: auto;
       }
     }
 
@@ -119,9 +104,7 @@
       right: 4%;
       img{
         display: block;
-        max-width: 100%;
         width: 450px;
-        height: auto;
       }
     }
 
@@ -130,9 +113,7 @@
       right: 6%;
       img{
         display: block;
-        max-width: 100%;
         width: 600px;
-        height: auto;
       }
     }
   }

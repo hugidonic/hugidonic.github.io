@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-
+  font-family: 'Montserrat';
   // .intro__item
   &__item{
     width: 50vw;
@@ -17,13 +17,14 @@
     align-items: center;
     transition: .9s;
     cursor: pointer;
+    
     &:hover{
       width: 75vw;
     }
   }
   // .intro__ar
   &__ar {
-    background: url(../../img/arBg.jpg) no-repeat left 20% center / cover;
+    background: url(../../img/arBg.jpg) no-repeat left center / cover;
     border-right: 1px solid #000000;
   }
 
