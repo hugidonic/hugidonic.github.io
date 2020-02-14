@@ -11,13 +11,12 @@ header{
   z-index: 990;
 
   display: flex;
-  align-items: center;
   justify-content: center;
-
   .header{
     max-width: 100%;
-    height: 90vh;
+    height: 80vh;
     padding-left: 20px;
+    margin-top: 20px;
   
     display: flex;
     justify-content: space-evenly;
@@ -34,9 +33,7 @@ header{
       margin-top: -60px;
   
       img{
-        max-width: 100%;
         width: 75px;
-        height: auto;
         display: block;
         margin-bottom: 10px;
       }
@@ -55,7 +52,7 @@ header{
       cursor: pointer;
     }
     .nav{
-      width: 70%;
+      width: 60%;
       &__menu{
         display: flex;
         justify-content: space-between;
@@ -70,7 +67,7 @@ header{
           display: inline-block;
           vertical-align: middle;
   
-          margin: 30px;
+          margin: 25px;
           margin-left: 40px;
           position: relative;
 

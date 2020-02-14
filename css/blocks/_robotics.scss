@@ -7,10 +7,23 @@
 
     img{
       display: block;
-      max-width: 100%;
-      height: auto;
       width: 70vh;
     }
-
+    @media screen and (max-width: 1700px){
+      img{
+        width: 60vh;
+      }
+    }
+    @media screen and (max-width: 1500px){
+      left: 25%;
+      img{
+        width: 55vh;
+      }
+    }
+    @media screen and (max-width: 1400px){
+      img{
+        width: 50vh;
+      }
+    }
   }
  }

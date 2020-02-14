@@ -241,56 +241,38 @@ section.black .section__heading {
   font-size: 18px;
 }
 
-.section__titles .sophia {
-  position: absolute;
-  right: 6%;
-  top: 25%;
-  overflow: hidden;
-  width: 20vw;
-  border-radius: 5px;
-  -webkit-box-shadow: 1px 4px 3px 2px rgba(255, 255, 255, 0.2);
-          box-shadow: 1px 4px 3px 2px rgba(255, 255, 255, 0.2);
+.section__titles .hand {
+  top: 20%;
+  right: 5%;
 }
 
-.section__titles .sophia img {
+.section__titles .hand img {
   display: block;
-  height: auto;
-  max-width: 100%;
-  height: auto;
+  width: 600px;
 }
 
-.section__titles .aiko {
-  position: absolute;
-  top: 60%;
-  right: 2%;
+.section__titles .first {
+  top: 15%;
+  right: 5%;
 }
 
-.section__titles .aiko iframe {
-  width: 35vw;
-  border-radius: 5px;
-  height: 420px;
+.section__titles .first img {
+  display: block;
+  width: 400px;
+}
+
+.section__titles .second {
+  bottom: 15%;
+  right: 5%;
+}
+
+.section__titles .second img {
+  display: block;
+  width: 400px;
 }
 
 .section__titles .image {
   position: absolute;
-  top: 30%;
-  left: 65%;
-  overflow: hidden;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 4px 3px 2px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 4px 3px 2px rgba(0, 0, 0, 0.5);
-}
-
-.section__titles .image img {
-  display: block;
-  max-width: 100%;
-  width: 600px;
-  height: auto;
-}
-
-.section__titles .image.robots {
-  -webkit-box-shadow: none;
-          box-shadow: none;
 }
 
 .section__heading {
@@ -299,11 +281,6 @@ section.black .section__heading {
   max-width: 90%;
   margin-bottom: 60px;
   margin-left: -5px;
-}
-
-.section .heading--center {
-  text-align: center;
-  max-width: 100%;
 }
 
 @media screen and (max-width: 1800px) {
@@ -322,14 +299,20 @@ section.black .section__heading {
   .section__titles {
     width: 900px;
   }
+  .section__titles .image {
+    right: 3%;
+  }
+  .section__titles .first img, .section__titles .second img {
+    width: 350px;
+  }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .section__titles {
     width: 80vw;
     line-height: 1.3;
   }
-  .section .image, .section .aiko, .section .sophia {
+  .section .image {
     display: none;
   }
 }
@@ -363,39 +346,5 @@ section.black .section__heading {
             transform: translateX(-50%);
     left: 50%;
   }
-}
-
-.section .container-fluid {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.section .titles--types {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.section .titles--types .card {
-  -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
-  padding: 25px;
-  min-height: 500px;
-  max-width: 700px;
-  margin: 40px auto;
-}
-
-.section .titles--types .card h1 {
-  text-align: center;
-  margin: 10px 0 15px;
-}
-
-.section .titles--types .card p {
-  font-size: 18px;
-  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

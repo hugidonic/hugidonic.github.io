@@ -8,11 +8,22 @@
 
     img{
       display: block;
-      max-width: 100%;
-      height: auto;
       width: 45vh;
     }
+    @media screen and (max-width: 1700px){
+      img{
+        width: 40vh;
+      }
+    }
+    @media screen and (max-width: 1500px){
+      img{
+        width: 35vh;
+      }
+    }
+    @media screen and (max-width: 1400px){
+      img{
+        width: 30vh;
+      }
+    }
   }
-  
-
  }

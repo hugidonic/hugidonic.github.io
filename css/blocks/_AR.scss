@@ -8,10 +8,24 @@
 
     img{
       display: block;
-      max-width: 100%;
-      height: auto;
-      width: 80vh;
+      width: 75vh;
       transform: rotateY(180deg);
+    }
+
+    @media screen and (max-width: 1700px){
+      img{
+        width: 72vh;
+      }
+    }
+    @media screen and (max-width: 1500px){
+      img{
+        width: 67vh;
+      }
+    }
+    @media screen and (max-width: 1400px){
+      img{
+        width: 64vh;
+      }
     }
   }
 

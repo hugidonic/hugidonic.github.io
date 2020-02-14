@@ -8,9 +8,22 @@
 
     img{
       display: block;
-      max-width: 100%;
-      height: auto;
-      width: 90vh;
+      width: 85vh;
+    }
+    @media screen and (max-width: 1700px){
+      img{
+        width: 80vh;
+      }
+    }
+    @media screen and (max-width: 1500px){
+      img{
+        width: 77vh;
+      }
+    }
+    @media screen and (max-width: 1400px){
+      img{
+        width: 75vh;
+      }
     }
   }
 
